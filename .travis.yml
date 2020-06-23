@@ -3,5 +3,5 @@ services:
   - docker
 
 script:
-  - docker build -t <dockeruser/nameofproject> .
-  - docker images <dockeruser/nameofproject>
+  - docker build -t ericvdal/test .
+  - docker images ericvdal/test
