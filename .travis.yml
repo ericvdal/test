@@ -9,8 +9,8 @@ script:
 before_deploy:
   - docker login -u ericvdal -p DP2l1can2t!R
 
-  deploy:
-    provider: script
-    script: docker push ericvdal/test
-    on:
-      branch: master
+deploy:
+  provider: script
+  script: docker push ericvdal/test
+  on:
+    branch: master
