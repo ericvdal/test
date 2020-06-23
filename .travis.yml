@@ -7,7 +7,7 @@ script:
   - docker images ericvdal/test
 
 before_deploy:
-  docker login -u ericvdal@gmail.com -p DP2l1can2t!R
+  docker login -u ericvdal -p DP2l1can2t!R
 
   deploy:
   provider: script
